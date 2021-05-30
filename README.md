@@ -1,23 +1,15 @@
 # 异构sql数据同步mssql-mysql
 
 #### 介绍
-多年前写的自动化脚本，用于配置异构sql数据同步mssql-mysql，有需要可以拿去用，也可以帮忙改改，以后说不定用得上，比如甲方要求在winserver上部署服务啥的
 
-#### 软件架构
-软件架构说明
-
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
+多年前写的自动化脚本，用于配置异构sql数据同步mssql-mysql，有需要可以拿去用，也可以联系我帮忙改改啥的，以后说不定用得上，比如甲方要求在winserver上部署服务啥的
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  确保mssql和mysql都有相同结构的表，默认表名称（kaoqin）
+2.  修改ygsql_copy.bat里对应的mysql数据库信息
+3.  修改sql-login里对应的mysql数据库信息
+4.  如果需要修改需要同步的表的名称，必须把这一堆sql表里的对应的表名称都改掉。(我懒得搞个配置文件，有空闲的老哥可以帮忙搞一个（笑）)
 
 #### 参与贡献
 
@@ -25,13 +17,3 @@
 2.  新建 Feat_xxx 分支
 3.  提交代码
 4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
